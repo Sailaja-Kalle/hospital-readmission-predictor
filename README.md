@@ -6,7 +6,7 @@
 An advanced AI-powered web app that predicts 30-day hospital readmission risk using Machine Learning, AI Agents and MCP Servers.
 
 ## 🌐 Live Demo
-👉 [Click here to try the app](https://your-app-link.streamlit.app)
+👉 [Click here to try the app](https://hospital-readmission-predictor-project.streamlit.app)
 
 ## ✨ Features
 - 🤖 LightGBM ML Model with 97% accuracy
