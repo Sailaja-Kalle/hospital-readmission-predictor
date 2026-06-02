@@ -8,6 +8,12 @@ load_dotenv()
 
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
+import os
+if not os.path.exists('data/model.pkl'):
+    from model import train_model
+    os.makedirs('data', exist_ok=True)
+    train_model()
+
 with open('data/model.pkl', 'rb') as f:
     model = pickle.load(f)
 
