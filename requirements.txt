@@ -1,0 +1,9 @@
+streamlit
+lightgbm
+scikit-learn
+pandas
+numpy
+groq
+langchain
+fastmcp
+python-dotenv

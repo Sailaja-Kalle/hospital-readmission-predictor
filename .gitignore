@@ -1,0 +1,6 @@
+venv/
+__pycache__/
+*.pkl
+.env
+data/model.pkl
+data/features.pkl
